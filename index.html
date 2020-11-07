@@ -14,24 +14,41 @@
         </div>
     </header>
     <div class="row">
-        <div class="col-sm-2">
+        <div class="col-sm-3">
             <div class="content">
-                <div id="searchbar">
-                        <input type="text" id="cityName">   
-                        <button id="search">search</button>
-                </div>
-        
+                <div class="container">
+                    <div class="row">
+                        <h4>Search for a City:</h4>
+                    </div>
+                    <div class="row">
+                        <div id="searchbar">
+                            <input type="text" id="cityName">   
+                            <button id="search">search</button>
+                        </div>
+                    </div>
+                </div>        
             </div>
 
         </div>
-        <div class="col-sm-10">
+        <div class="col-sm-9">
             <div class="jumbotron">
-                <div class=row>
+                <div class="row">
                     <h2 id="citydate"></h2>
                 </div>
                 <div class="row">
                     <h3 id="currenttemp"></h3>
                 </div>
+                <div class="row">
+                    <h3 id="currenthumid"></h3>
+                </div>
+                <div class="row">
+                    <h3 id="currentwind"></h3>
+                </div>
+                <div class="row">
+                    <h3 id="currentuv"></h3>
+            </div>
+            <div class="row" id="forecast">
+                <!--5 day forecast cards here-->
             </div>
         </div>
     </div>
